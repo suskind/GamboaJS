@@ -265,9 +265,9 @@ var GamboaJS = {
 
             if(tag) {
                 if(tag === 'tr') {
-                    elmChild = Ink.s('table > tbody > '+tag+'', elm);
+                    elmChild = this.s('table > tbody > '+tag+'', elm);
                 } else {
-                    elmChild = Ink.s('> '+tag+'', elm);
+                    elmChild = this.s('> '+tag+'', elm);
                 }
             } else {
                 if(elm.firstChild.nodeType === 1) {
